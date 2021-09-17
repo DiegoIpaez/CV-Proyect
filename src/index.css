@@ -1,13 +1,181 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+/* NavBar */
+
+.navbar-home {
+  background-color: #5800a0;
+}
+
+.img-logo {
+  width: 70px;
+  height: 50px;
+}
+.logo-text {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+
+.logo-text:hover {
+  color: rgb(218, 209, 209);
+}
+
+.btn-github:hover{
+  color: rgb(170, 170, 170);
+}
+
+/* Fin de Nav */
+
+main {
+  background-image: linear-gradient(
+    to bottom,
+    #2b00ff,
+    #7c00e5,
+    #9d00cc,
+    #b000b6,
+    #bb00a3
+  );
+}
+
+.perfil-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px !important;
+  height: 200px;
+  border-radius: 1000px;
+  position: relative;
+  bottom: -30px;
+}
+
+/* Seccion info */
+.info-seccion {
+  background-color: rgb(255, 0, 0, 0.2);
+  opacity: 1;
+  border-radius: 7px;
+}
+
+.capa {
+  background-color: rgb(255, 255, 255, 0.2) !important;
+  border-radius: 7px;
+}
+/* Fin de info */
+
+/* Seccion CV */
+.cv-section {
+  background-color: rgb(248, 248, 248);
+  border-radius: 7px;
+}
+/* Fin de cv */
+
+/* Barra Slider */
+
+/* Fin slider */
+
+/* iconos */
+.fa-html5 {
+  color: #ff7b00;
+}
+.fa-css3-alt {
+  color: #00aeff;
+}
+
+.fa-react {
+  color: #00e1ff;
+}
+.fa-js-square {
+  color: #e2df16;
+}
+.fa-bootstrap {
+  color: #7c00e5;
+}
+.fa-map-marker-alt {
+  color: red;
+}
+
+.fa-facebook-square{
+  color: #003aa5;
+}
+.fa-facebook-square:hover{
+  color: #002872;
+}
+
+.fa-instagram-square{
+  color: #880088;
+}
+.fa-instagram-square:hover{
+  color: #740064;
+}
+
+.fa-twitter-square{
+  color: #00e1ff;
+}
+.fa-twitter-square:hover{
+  color: #008da0;
+}
+/* fin iconos */
+
+/* Footer */
+footer {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+/* Fin footer */
+
+
+/* MyProyects */
+.body{
+  background-image: linear-gradient(
+    to bottom,
+    #2b00ff,
+    #7c00e5,
+    #9d00cc,
+    #b000b6,
+    #bb00a3
+  );
+}
+
+.proyects-card{
+  background-color: rgb(255, 0, 0, 0.2);
+  opacity: 1;
+  border-radius: 7px;
+}
+
+.img-proyect{
+  width: 100%;
+  height: 470px;
+  max-height: 55vh;
+  border-radius: 10px;
+  transition-property: filter;
+  transition-duration: 0.3s;
+}
+
+.img-proyect:hover{
+  opacity: 0.7;
+}
+
+.url-tdn{
+  text-decoration: none !important;
+}
+
+.myProyectsBtn:hover{
+color: rgb(177, 177, 177);
+}
+
+.urlGit{
+  text-decoration: none;
+  color: white;
+}
+
+/* fin */
